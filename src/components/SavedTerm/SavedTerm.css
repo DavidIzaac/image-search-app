@@ -1,0 +1,28 @@
+.term-btn {
+  border: none;
+  outline: none;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.term-btn.clicked {
+  background-color: white;
+  color: royalblue;
+  border: 2px solid royalblue;
+  box-shadow: 0px 3px 0px royalblue;
+}
+
+.term-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 3px 0px royalblue;
+  transition: all 0.2s;
+}
+
+.term-btn.clicked:hover{
+  transition: all 0.2s;
+  transform: translateY(0px);
+}
